@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/tile_margin"
+    android:background="@color/semitransparent_white"
+    android:padding="@dimen/tile_padding" >
+
+    <TextView
+        android:id="@+id/pt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/tile_inside_padding"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="Project"
+        android:textColor="@color/std_text"
+        android:textSize="@dimen/fs_project" />
+
+    <TextView
+        android:id="@+id/pt_todos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/pt_title"
+        android:text="32"
+        android:textColor="@color/std_text"
+        android:textSize="@dimen/fs_todos" />
+
+    <TextView
+        android:id="@+id/pt_next_todo_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pt_title"
+        android:layout_marginBottom="@dimen/tile_inside_minor_padding"
+        android:layout_marginLeft="@dimen/tile_inside_padding"
+        android:layout_toRightOf="@+id/pt_todos"
+        android:text="Next Todo Due On:"
+        android:textColor="@color/std_text"
+        android:textSize="@dimen/fs_side_label" />
+
+    <TextView
+        android:id="@+id/pt_next_todo_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pt_next_todo_label"
+        android:layout_marginLeft="@dimen/tile_inside_padding"
+        android:layout_toRightOf="@+id/pt_todos"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/std_text"
+        android:textSize="@dimen/fs_side_value" />
+
+    <TextView
+        android:id="@+id/pt_last_todo_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pt_next_todo_value"
+        android:layout_marginBottom="@dimen/tile_inside_minor_padding"
+        android:layout_marginLeft="@dimen/tile_inside_padding"
+        android:layout_marginTop="@dimen/tile_inside_padding"
+        android:layout_toRightOf="@+id/pt_todos"
+        android:text="Last Todo Due On:"
+        android:textColor="@color/std_text"
+        android:textSize="@dimen/fs_side_label" />
+
+    <TextView
+        android:id="@+id/pt_last_todo_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pt_last_todo_label"
+        android:layout_marginLeft="@dimen/tile_inside_padding"
+        android:layout_toRightOf="@+id/pt_todos"
+        android:text="TextView"
+        android:textColor="@color/std_text"
+        android:gravity="center"
+        android:textSize="@dimen/fs_side_value" />
+
+</RelativeLayout>

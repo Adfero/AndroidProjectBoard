@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tile_margin">8dp</dimen>
+    <dimen name="tile_padding">8dp</dimen>
+    <dimen name="tile_inside_padding">4dp</dimen>
+    <dimen name="tile_inside_minor_padding">2dp</dimen>
+    <dimen name="fs_project">10dp</dimen>
+    <dimen name="fs_todos">50dp</dimen>
+    <dimen name="fs_side_label">6dp</dimen>
+    <dimen name="fs_side_value">14dp</dimen>
+    
+</resources>

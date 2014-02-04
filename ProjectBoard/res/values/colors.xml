@@ -1,0 +1,11 @@
+<resources>
+	<color name="colgen_night">#0f112e</color>
+	<color name="colgen_morning">#f8b2be</color>
+	<color name="colgen_noon">#eaeaff</color>
+	<color name="colgen_evening">#fc9c63</color>
+    
+    <color name="black_overlay">#66000000</color>
+    <color name="semitransparent_white">#aaffffff</color>
+    <color name="std_text">#333333</color>
+
+</resources>
